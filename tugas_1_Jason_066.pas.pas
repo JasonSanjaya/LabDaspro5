@@ -113,20 +113,20 @@ begin
   end
   else
   begin
-  jalur := 'Mandiri';
+    jalur := 'Mandiri';
   end;
 
   if (nomor_urut mod 3 = 1) then 
   begin 
-  kelas := 'A';
+    kelas := 'A';
   end
   else if (nomor_urut mod 3 = 2) then 
   begin 
-  kelas := 'B';
+    kelas := 'B';
   end 
   else if (nomor_urut mod 3 = 0) then 
   begin 
-  kelas := 'C';
+    kelas := 'C';
   end;
  
   if kode_prodi = 1401 then
